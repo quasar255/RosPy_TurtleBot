@@ -1,9 +1,6 @@
 #! /usr/bin/env/python
 
 import rospy
-from geometry_msgs import twist
-
-import rospy
 from geometry_msgs.msg import Twist # import twist message from geometry_msgs package
 
 rospy.init_node('move_robot_node')  # initiate a node named 'move_robot_node'
